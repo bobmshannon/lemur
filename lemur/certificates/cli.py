@@ -1117,4 +1117,5 @@ def identity_expiring_deployed_certificates(exclude_domains, exclude_owners, com
     """
     DEPRECATED: Use identify_expiring_deployed_certificates instead.
     """
+    current_app.logger.warn("identity_expiring_deployed_certificates is deprecated and will be removed in a future release, please use identify_expiring_deployed_certificates instead")
     return identify_expiring_deployed_certificates(exclude_domains, exclude_owners, commit)
