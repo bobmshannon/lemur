@@ -1075,6 +1075,9 @@ def is_duplicate(matching_cert, compare_to):
     help="Persist changes.",
 )
 def identify_expiring_deployed_certificates(exclude_domains, exclude_owners, commit):
+    """
+    Attempts to find any certificates that are expiring soon but are still deployed, and notifies the security team.
+    """
     status = FAILURE_METRIC_STATUS
     try:
         identify_and_persist_expiring_deployed_certificates(exclude_domains, exclude_owners, commit)
@@ -1084,3 +1087,34 @@ def identify_expiring_deployed_certificates(exclude_domains, exclude_owners, com
         current_app.logger.exception("Error identifying expiring deployed certificates", exc_info=True)
 
     metrics.send("identify_expiring_deployed_certificates", "counter", 1, metric_tags={"status": status})
+
+
+@manager.option(
+    "-e",
+    "--exclude",
+    dest="exclude_domains",
+    action="append",
+    default=[],
+    help="Domains that should be excluded from check.",
+)
+@manager.option(
+    "-eo",
+    "--exclude-owners",
+    dest="exclude_owners",
+    action="append",
+    default=[],
+    help="Owners that should be excluded from check.",
+)
+@manager.option(
+    "-c",
+    "--commit",
+    dest="commit",
+    action="store_true",
+    default=False,
+    help="Persist changes.",
+)
+def identity_expiring_deployed_certificates(exclude_domains, exclude_owners, commit):
+    """
+    DEPRECATED: Use identify_expiring_deployed_certificates instead.
+    """
+    return identify_expiring_deployed_certificates(exclude_domains, exclude_owners, commit)
