@@ -319,7 +319,7 @@ packaging==20.9
     #   -r requirements-tests.txt
     #   pytest
     #   sphinx
-paramiko==2.7.2
+paramiko==2.9.2
     # via -r requirements-docs.in
 parsedatetime==2.6
     # via
