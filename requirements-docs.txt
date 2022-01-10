@@ -56,13 +56,13 @@ blinker==1.4
     # via
     #   flask-mail
     #   flask-principal
-boto3==1.17.101
+boto3==1.20.31
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   aws-sam-translator
     #   moto
-botocore==1.20.101
+botocore==1.23.31
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -471,7 +471,7 @@ rsa==4.7.2
     # via
     #   -r requirements-tests.txt
     #   python-jose
-s3transfer==0.4.2
+s3transfer==0.5.0
     # via
     #   -r requirements-tests.txt
     #   boto3
