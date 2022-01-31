@@ -65,7 +65,7 @@ configargparse==1.4.1
     # via certbot
 configobj==5.0.6
     # via certbot
-cryptography==3.4.7
+cryptography==36.0.1
     # via
     #   -r requirements.in
     #   acme
@@ -188,7 +188,7 @@ pyjwt==2.1.0
     # via -r requirements.in
 pynacl==1.4.0
     # via paramiko
-pyopenssl==20.0.1
+pyopenssl==22.0.0
     # via
     #   -r requirements.in
     #   acme
@@ -249,7 +249,6 @@ six==1.16.0
     #   flask-restful
     #   hvac
     #   pynacl
-    #   pyopenssl
     #   python-dateutil
     #   retrying
     #   sqlalchemy-utils
