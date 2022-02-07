@@ -387,7 +387,7 @@ pyrsistent==0.17.3
     # via
     #   -r requirements-tests.txt
     #   jsonschema
-pytest==6.2.4
+pytest==7.0.0
     # via
     #   -r requirements-tests.txt
     #   pytest-flask
@@ -562,6 +562,9 @@ toml==0.10.2
     # via
     #   -r requirements-tests.txt
     #   black
+tomli==2.0.0
+    # via
+    #   -r requirements-tests.txt
     #   pytest
 twofish==0.3.0
     # via pyjks
