@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements-tests.txt requirements-tests.in
 #
-acme==1.16.0
+acme==1.24.0
     # via certbot
 alembic==1.6.5
     # via flask-migrate
@@ -114,7 +114,7 @@ jmespath==0.10.0
     # via
     #   boto3
     #   botocore
-josepy==1.8.0
+josepy==1.12.0
     # via
     #   acme
     #   certbot
@@ -290,16 +290,16 @@ wrapt==1.12.1
     # via aws-xray-sdk
 xmltodict==0.12.0
     # via moto
-zope.component==5.0.0
+zope-component==5.0.0
     # via certbot
-zope.event==4.5.0
-    # via zope.component
-zope.hookable==5.0.1
-    # via zope.component
-zope.interface==5.4.0
+zope-event==4.5.0
+    # via zope-component
+zope-hookable==5.0.1
+    # via zope-component
+zope-interface==5.4.0
     # via
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
