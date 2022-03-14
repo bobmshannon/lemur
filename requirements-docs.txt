@@ -387,7 +387,7 @@ pyrsistent==0.17.3
     # via
     #   -r requirements-tests.txt
     #   jsonschema
-pytest==6.2.4
+pytest==7.1.0
     # via
     #   -r requirements-tests.txt
     #   pytest-flask
@@ -562,6 +562,9 @@ toml==0.10.2
     # via
     #   -r requirements-tests.txt
     #   black
+tomli==2.0.1
+    # via
+    #   -r requirements-tests.txt
     #   pytest
 twofish==0.3.0
     # via pyjks
@@ -596,23 +599,23 @@ xmltodict==0.12.0
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   moto
-zope.component==5.0.0
+zope-component==5.0.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-zope.event==4.5.0
+zope-event==4.5.0
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.hookable==5.0.1
+    #   zope-component
+zope-hookable==5.0.1
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.interface==5.4.0
+    #   zope-component
+zope-interface==5.4.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
