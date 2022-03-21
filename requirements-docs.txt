@@ -319,7 +319,7 @@ packaging==20.9
     #   -r requirements-tests.txt
     #   pytest
     #   sphinx
-paramiko==2.7.2
+paramiko==2.10.3
     # via -r requirements-docs.in
 parsedatetime==2.6
     # via
@@ -493,6 +493,7 @@ six==1.16.0
     #   jsonschema
     #   junit-xml
     #   moto
+    #   paramiko
     #   pynacl
     #   pyopenssl
     #   python-dateutil
@@ -596,23 +597,23 @@ xmltodict==0.12.0
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   moto
-zope.component==5.0.0
+zope-component==5.0.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-zope.event==4.5.0
+zope-event==4.5.0
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.hookable==5.0.1
+    #   zope-component
+zope-hookable==5.0.1
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.interface==5.4.0
+    #   zope-component
+zope-interface==5.4.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
