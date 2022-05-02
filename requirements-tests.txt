@@ -106,7 +106,7 @@ iniconfig==1.1.1
     # via pytest
 itsdangerous==2.0.1
     # via flask
-jinja2==3.0.1
+jinja2==3.1.2
     # via
     #   flask
     #   moto
@@ -290,16 +290,16 @@ wrapt==1.12.1
     # via aws-xray-sdk
 xmltodict==0.12.0
     # via moto
-zope.component==5.0.0
+zope-component==5.0.0
     # via certbot
-zope.event==4.5.0
-    # via zope.component
-zope.hookable==5.0.1
-    # via zope.component
-zope.interface==5.4.0
+zope-event==4.5.0
+    # via zope-component
+zope-hookable==5.0.1
+    # via zope-component
+zope-interface==5.4.0
     # via
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
