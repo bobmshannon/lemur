@@ -126,7 +126,7 @@ itsdangerous==2.0.1
     # via flask
 javaobj-py3==0.4.3
     # via pyjks
-jinja2==3.0.1
+jinja2==3.1.2
     # via
     #   -r requirements.in
     #   flask
@@ -281,16 +281,16 @@ werkzeug==2.0.1
     # via flask
 xmltodict==0.12.0
     # via -r requirements.in
-zope.component==5.0.0
+zope-component==5.0.0
     # via certbot
-zope.event==4.5.0
-    # via zope.component
-zope.hookable==5.0.1
-    # via zope.component
-zope.interface==5.4.0
+zope-event==4.5.0
+    # via zope-component
+zope-hookable==5.0.1
+    # via zope-component
+zope-interface==5.4.0
     # via
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
