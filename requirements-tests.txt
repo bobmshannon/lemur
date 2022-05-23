@@ -22,11 +22,11 @@ bandit==1.7.0
     # via -r requirements-tests.in
 black==21.6b0
     # via -r requirements-tests.in
-boto3==1.17.101
+boto3==1.23.5
     # via
     #   aws-sam-translator
     #   moto
-botocore==1.20.101
+botocore==1.26.5
     # via
     #   aws-xray-sdk
     #   boto3
@@ -237,7 +237,7 @@ responses==0.13.3
     # via moto
 rsa==4.7.2
     # via python-jose
-s3transfer==0.4.2
+s3transfer==0.5.2
     # via boto3
 six==1.16.0
     # via
@@ -290,16 +290,16 @@ wrapt==1.12.1
     # via aws-xray-sdk
 xmltodict==0.12.0
     # via moto
-zope.component==5.0.0
+zope-component==5.0.0
     # via certbot
-zope.event==4.5.0
-    # via zope.component
-zope.hookable==5.0.1
-    # via zope.component
-zope.interface==5.4.0
+zope-event==4.5.0
+    # via zope-component
+zope-hookable==5.0.1
+    # via zope-component
+zope-interface==5.4.0
     # via
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
