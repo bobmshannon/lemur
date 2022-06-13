@@ -56,13 +56,13 @@ blinker==1.4
     # via
     #   flask-mail
     #   flask-principal
-boto3==1.17.101
+boto3==1.24.7
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   aws-sam-translator
     #   moto
-botocore==1.20.101
+botocore==1.27.7
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -471,7 +471,7 @@ rsa==4.7.2
     # via
     #   -r requirements-tests.txt
     #   python-jose
-s3transfer==0.4.2
+s3transfer==0.6.0
     # via
     #   -r requirements-tests.txt
     #   boto3
@@ -596,23 +596,23 @@ xmltodict==0.12.0
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   moto
-zope.component==5.0.0
+zope-component==5.0.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-zope.event==4.5.0
+zope-event==4.5.0
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.hookable==5.0.1
+    #   zope-component
+zope-hookable==5.0.1
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.interface==5.4.0
+    #   zope-component
+zope-interface==5.4.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
