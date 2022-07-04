@@ -55,7 +55,7 @@ cffi==1.14.5
     #   bcrypt
     #   cryptography
     #   pynacl
-chardet==4.0.0
+charset-normalizer==2.1.0
     # via requests
 click==8.0.1
     # via flask
@@ -224,7 +224,7 @@ redis==3.5.3
     # via
     #   -r requirements.in
     #   celery
-requests==2.25.1
+requests==2.28.1
     # via
     #   -r requirements.in
     #   acme
@@ -281,16 +281,16 @@ werkzeug==2.0.1
     # via flask
 xmltodict==0.12.0
     # via -r requirements.in
-zope.component==5.0.0
+zope-component==5.0.0
     # via certbot
-zope.event==4.5.0
-    # via zope.component
-zope.hookable==5.0.1
-    # via zope.component
-zope.interface==5.4.0
+zope-event==4.5.0
+    # via zope-component
+zope-hookable==5.0.1
+    # via zope-component
+zope-interface==5.4.0
     # via
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
